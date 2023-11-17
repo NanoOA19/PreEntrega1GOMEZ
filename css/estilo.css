@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+header {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #00a8e8;
+}
+
+.containernav {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  grid-template-columns: auto;
+}
+.menulink{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.menuli {
+  margin: 0 auto;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  text-align: left;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.menuli a {
+  text-decoration: none;
+
+}
+
+li {
+  list-style-type: none;
+  margin-top: 50%;
+
+}
+
+.iconoheader {
+  width: 60px;
+  margin: 0;
+  padding: 5px;
+}
+
+
+.lomas {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: -5;
+  grid-row-end: 2;
+  background-color: red;
+}
+
+.nove {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: -4;
+  grid-row-end: 3;
+  background-color: red;
+}
+
+
+h1 {
+  font-size: x-large;
+  text-align: center;
+
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.titulo {
+  color: #7100ff;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  background-color: white;
+}
+
+.marca {
+  width: 150px;
+  padding: 5px;
+}
