@@ -9,7 +9,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 200px auto auto auto;
-  grid-template-rows: auto auto 200px;
+  grid-template-rows: auto auto auto;
 }
 
 header {
@@ -95,13 +95,6 @@ li{
   margin-left: auto;
   margin-right: auto;
 }
-.containercont{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  height: 100%;
-  
-}
-
 .nove {
   grid-column-start: 2;
   grid-column-end: 5;
@@ -111,16 +104,8 @@ li{
   grid-template-columns: 50% 50%;
   display: grid;
 }
-.containernove{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  text-align: center;
-  height: 100%;
-}
-.containercont2{
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
+
+
 
 .titulo {
   font-size: xx-large;
