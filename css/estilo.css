@@ -56,7 +56,7 @@ header {
 
 .menuli a {
   text-decoration: none;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 li {
@@ -135,7 +135,7 @@ footer {
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-color:#9f55fa ;
+  background-color: #9f55fa;
   text-align: center;
   justify-content: center;
 }
@@ -145,9 +145,10 @@ footer {
   padding-top: 15px;
   text-align: center;
 }
+
 /*FIN FOOTER*/
 /*INICIO NOSOTROS*/
-.contnos{
+.contnos {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -155,15 +156,17 @@ footer {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  background-color: #b77dff; 
-  
+  background-color: #b77dff;
+
 }
-.subtinos{
+
+.subtinos {
   text-align: center;
-  margin-top: 15px ;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
-.contunpoco{
+
+.contunpoco {
   display: block;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -171,76 +174,87 @@ footer {
   grid-row-end: 2;
   margin-left: 10px;
 }
-.contunpoco2{
+
+.contunpoco2 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
   margin-bottom: 25px;
 }
-.carrouselfounder{
+
+.carrouselfounder {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
-.actualinos{
+
+.actualinos {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
   margin-bottom: 50px;
 }
-.carousel-inner img{
-  width:300px;
-   margin-top: 85px;
+
+.carousel-inner img {
+  width: 300px;
+  margin-top: 85px;
 }
+
 /*FIN DE NOSOTROS*/
 /*INICIO CLASES*/
-.imgclass{
+.imgclass {
   width: 100%;
   height: 100%;
 }
-.opac{
+
+.opac {
   position: absolute;
   width: 100%;
   opacity: 0.7;
   z-index: 1;
-  
+
 }
-.sanyo{
+
+.sanyo {
   position: absolute;
   width: 100%;
   z-index: 0;
 }
+
 /*FIN DE CLASES*/
 /*MEDIA*/
 @media screen and (max-width: 768px) {
-  .contnos{
+  .contnos {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
   }
-  .contunpoco{
+
+  .contunpoco {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  .contunpoco2{
+
+  .contunpoco2 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
   }
-  .carrouselfounder{
+
+  .carrouselfounder {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
     margin-top: -70px;
   }
-  
-  .actualinos{
+
+  .actualinos {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
