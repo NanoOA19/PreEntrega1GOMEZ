@@ -5,6 +5,8 @@
 }
 
 .container-fluid {
+  margin: 0;
+  padding: 0;
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -44,11 +46,12 @@ header {
 .menuli {
   display: flex;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   grid-row-start: 2;
   grid-row-end: 3;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 20px;
+  margin-left: -20px;
 }
 
 .menuli a {
@@ -211,3 +214,36 @@ footer {
   z-index: 0;
 }
 /*FIN DE CLASES*/
+/*MEDIA*/
+@media screen and (max-width: 768px) {
+  .contnos{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  .contunpoco{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .contunpoco2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .carrouselfounder{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: -70px;
+  }
+  
+  .actualinos{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+}
