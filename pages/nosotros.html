@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="../CSS/estilo.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,36 +13,72 @@
   <title>NPC</title>
 </head>
 
-<body class="container">
+<body class="container-fluid">
   <header>
-      <nav class="containernav">
-          <div class="menulink">
-              <img class="iconoheader" src="../img/favicon_io/favicon.ico" alt="icono inicio" />
-              <h1 class="titulo">NOSOTROS</h1>
-          </div>
-          <div class="menuli">
-              <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="clases.html">Clases</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="torneos.html">Torneos</a></li>
-              </ul>
-          </div>
-      </nav>
+    <nav class="containernav">
+      <div class="menulink">
+        <img class="iconoheader" src="../img/favicon_io/favicon.ico" alt="icono inicio" />
+        <h1 class="titulo">NOSOTROS</h1>
+      </div>
+      <div class="menuli">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="clases.html">Clases</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="torneos.html">Torneos</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
-  <main>
-    <h2>Un poco de nosotros</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga officia natus non vel dignissimos alias quod sit,
-      quibusdam provident dolores adipisci dicta officiis! Praesentium quod quia iusto suscipit quae officia.</p>
-    <img src="../IMG/sanyo.jpg" alt="sanyo" />
-    <h3>Nombre,apellido y edad</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur, a inventore aliquam explicabo
-      exercitationem tempora ea velit debitis atque!</p>
-    <h2>Ultimas noticias de NPC</h2>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aliquam provident suscipit doloribus culpa sit
-    recusandae ut maxime consectetur sequi cupiditate est praesentium et maiores, asperiores mollitia, numquam sapiente
-    vitae!
+  <main class="contnos">
+    <div class="contunpoco">
+      <h2 class="subtinos">Un poco de nosotros</h2>
+      <p>Somos una pequeña empresa impulsada en sus inicios por la necesidad económica, pero transformandose en la una
+        pasión por el deporte, al punto de ser profesor y participe de padel. Nacimos en el año 2022, en la ciudad de
+        Zárate, Argentina. En aquel momento, la situación económica era complicada y necesitábamos encontrar una forma
+        de generar ingresos. Decidimos apostar por el padel, un deporte que nos apasionaba y que estaba empezando a
+        crecer en popularidad.</p>
+
+      <p>Al principio, nos centramos en la venta de paletas y accesorios. Sin embargo, pronto nos dimos cuenta de que
+        nuestra verdadera vocación era enseñar y practicar este deporte. Así, empezamos a ofrecer clases de pádel para
+        todas las edades y niveles.</p></div>
+
+        <div class="contunpoco2">
+      <p>Hoy en día, somos una empresa consolidada con una amplia trayectoria en el sector del pádel aqui en Zárate.
+        Nuestra pasión por el pádel nos ha llevado a cumplir nuestro sueño. Nos encanta este deporte y ver cómo
+        disfrutan de él.</p>
+
+      <p>En los próximos años, queremos seguir creciendo y desarrollando nuestra empresa. Nuestro objetivo es
+        convertirnos en un referente del pádel en la región. Para ello, seguiremos apostando por la calidad de nuestras
+        clases y venta de calidad de nuestros productos. Además, queremos promover el pádel como un deporte saludable y
+        divertido para todas las edades. Estamos seguros de que, con esfuerzo y dedicación, podremos alcanzar nuestros
+        objetivos.</p>
+    </div>
+    <div class="carrouselfounder">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/1founder.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/2founder.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/3founder.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="actualinos">
+      <h2>Ultimas noticias de NPC</h2>
+      <img src="../img/ultnot.jfif" alt="ultima noticia">
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aliquam provident suscipit doloribus culpa sit
+      recusandae ut maxime consectetur sequi cupiditate est praesentium et maiores, asperiores mollitia, numquam
+      sapiente
+      vitae!</p>
+    </div>
   </main>
   <footer>
     <hr>
@@ -53,6 +90,7 @@
     <img class="marca" src="../IMG/adidas.png" alt="marca adidas" />
     <img class="marca" src="../IMG/babolat.svg.png" alt="marca babolat" />
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
