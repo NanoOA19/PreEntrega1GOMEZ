@@ -1,2 +1,2 @@
-# ProyecyoNPC
+# ProyectoNPC
 
