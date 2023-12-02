@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 
-.container-fluid {
+.container {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+  max-width: 100%;
   display: grid;
   grid-template-columns: 200px auto auto auto;
   grid-template-rows: auto auto auto;
@@ -25,7 +24,7 @@ header {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 4;
-  background-color: #00a8e8;
+  background-color: rgb(50, 50, 250)
 }
 
 .containernav {
@@ -38,7 +37,7 @@ header {
 .menulink {
   grid-row-start: 1;
   grid-row-end: 2;
-  padding-top: 40px;
+  align-content: center;
   width: 100%;
   height: 100%;
 }
@@ -47,21 +46,26 @@ header {
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: start;
   grid-row-start: 2;
   grid-row-end: 3;
   width: 100%;
-  padding-top: 20px;
-  margin-left: -20px;
 }
 
 .menuli a {
   text-decoration: none;
   font-weight: bolder;
+  color: rgb(118, 236, 82);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 li {
   list-style-type: none;
-  margin-top: 100%;
+  margin-top: 4.5vw;
   font-size: large;
 }
 
@@ -73,8 +77,16 @@ li {
 
 .iconoheader {
   width: 60px;
-  margin: 0;
-  padding: 5px;
+  margin: 10px;
+}
+
+.carrouselfounder1 {
+  display: flex;
+}
+
+.carousel-inner1 img {
+  width: 300px;
+  padding-top: 90px
 }
 
 /*FIN MENU*/
@@ -90,7 +102,7 @@ li {
 }
 
 .containerlomas {
-  grid-row-start: 0;
+  grid-row-start: -4;
   grid-row-end: 1;
   text-align: center;
 }
@@ -102,30 +114,32 @@ li {
 }
 
 .cont {
-  margin-top: 30px;
-  margin-bottom: 15px;
+  padding: 10px;
+  margin: 0 auto;
   text-align: start;
+  width: 550px;
 }
 
 .imgini {
-  margin-bottom: 20px;
   height: 350px;
-  display: block;
+  width: 550px;
   margin-left: auto;
   margin-right: auto;
 }
+
+.carousel-item img {}
 
 /*FIN DE INICIO*/
 /*TITULOS Y SUBTITULOS*/
 .titulo {
   font-size: xx-large;
-  text-align: center;
-  color: #7100ff;
+  color: rgb(118, 236, 82);
   font-family: "Bebas Neue", sans-serif;
 }
 
 .subtinicio {
   text-align: center;
+  margin: 10px;
 }
 
 /*FIN DE TITULOS Y SUBTITULOS*/
@@ -183,11 +197,12 @@ footer {
   margin-bottom: 25px;
 }
 
-.carrouselfounder {
+.carrouselfounder2 {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  display: flex;
 }
 
 .actualinos {
@@ -198,9 +213,9 @@ footer {
   margin-bottom: 50px;
 }
 
-.carousel-inner img {
+.carousel-inner2 img {
   width: 300px;
-  margin-top: 85px;
+  padding-top: 90px
 }
 
 /*FIN DE NOSOTROS*/
