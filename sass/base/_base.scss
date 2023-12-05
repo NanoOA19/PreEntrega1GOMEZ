@@ -1,0 +1,15 @@
+html {
+    font-family: $cuerpo;
+    width: 100%;
+    min-width: 375px;
+    font-size: 18px;
+}
+
+body{
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:$tys ;
+    font-weight: 900;
+}

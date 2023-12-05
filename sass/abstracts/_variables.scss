@@ -1,11 +1,13 @@
 /*COLORES*/
-$azulvioleta: hsl(240, 95%, 59%);
-$limaneon: hsl(106, 80%, 62%);
-$negropuro: hsl(0, 0%, 0%);
-$blancobone:hsl(180, 100%, 97%);
-$lilacrema: hsl(267, 100%, 75%);
-$lilapower: hsl(267, 94%, 66%);
+@variable $azulvioleta: hsl(240, 95%, 59%);
+@variable $limaneon: hsl(106, 80%, 62%);
+@variable $negropuro: hsl(0, 0%, 0%);
+@variable $blancobone:hsl(180, 100%, 97%);
+@variable $lilacrema: hsl(267, 100%, 75%);
+@variable $lilapower: hsl(267, 94%, 66%);
+
 /*TIPOGRAFIAS*/
-$cuerpo:"Montserrat", sans-serif;
-$tys: "Bebas Neue", sans-serif;
+@variable $cuerpo:"Montserrat", sans-serif;
+@variable $tys: "Bebas Neue", sans-serif;
+
 
