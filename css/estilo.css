@@ -4,4 +4,79 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "$font-montserrat";
+  font-size: 18px;
+  width: 100%;
+  min-width: 375px;
+}
+html body {
+  position: relative;
+}
+html body .container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 200px auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+/*MENU*/
+header {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: hsl(240, 95%, 59%);
+}
+header .containernav {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 200px auto;
+}
+header .containernav .menulink {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+header .containernav .menulink .iconoheader {
+  width: 60px;
+  margin: 10px;
+}
+header .containernav .menuli {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: start;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+}
+header .containernav .menuli ul {
+  padding: 0;
+  margin: 0;
+}
+header .containernav .menuli ul li {
+  list-style-type: none;
+  margin-top: 4.5vw;
+  font-size: large;
+}
+header .containernav .menuli ul li .menuli a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: hsl(106, 80%, 62%);
+}
+header .containernav .menuli ul li .menuli a:hover {
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(180, 100%, 97%);
+}
+
+/*FIN MENU*/
+
 /*# sourceMappingURL=estilo.css.map */

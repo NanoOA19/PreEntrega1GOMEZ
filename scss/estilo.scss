@@ -1,4 +1,10 @@
 //base
 @import'./base/resets';
+@import'./base/base';
 //others
-@import'./others/variables'
+@import'./others/variables';
+//layout
+@import'./layout/inicio';
+@import'./layout/menu';
+@import'./layout/footer';
+@import'./layout/clases';
