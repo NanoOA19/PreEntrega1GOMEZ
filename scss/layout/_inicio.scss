@@ -1,0 +1,35 @@
+/*INICIO*/
+.contenidoini {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: -4;
+    grid-row-end: 1;
+    background-color: $lilapastel ;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  .containerlomas {
+    grid-row-start: -4;
+    grid-row-end: 1;
+    text-align: center;
+  }
+  .containernove {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+  }
+   .cont {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: start;
+    width: 550px;
+  }
+  
+  .imgini {
+    height: 350px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*FIN DE INICIO*/

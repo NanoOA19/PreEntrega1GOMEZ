@@ -1,0 +1,17 @@
+/*FOOTER*/
+footer {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: $lilafuerte;
+    text-align: center;
+    justify-content: center;
+    .marca {
+        width: 200px;
+        padding-top: 15px;
+        text-align: center;
+      }
+  }
+  
+  /*FIN FOOTER*/

@@ -1,10 +1,14 @@
+//others
+@import'./others/variables';
 //base
 @import'./base/resets';
 @import'./base/base';
-//others
-@import'./others/variables';
 //layout
 @import'./layout/inicio';
 @import'./layout/menu';
-@import'./layout/footer';
+@import'./layout/nosotros';
 @import'./layout/clases';
+@import'./layout/torneos';
+@import'./layout/footer';
+//others
+@import'./others/mediaq'

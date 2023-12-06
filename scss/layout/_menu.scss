@@ -42,22 +42,20 @@
                      list-style-type: none;
                      margin-top: 4.5vw;
                      font-size: large;
-
-                     .menuli a {
-                         text-decoration: none;
-                         font-weight: bolder;
-                         color: hsl(106, 80%, 62%)
-                     }
-
-                     .menuli a:hover {
-                         border-radius: 20px;
-                         background-color: $negropuro;
-                         color: $blancohueso;
-                     }
                  }
              }
          }
      }
  }
+ .menuli a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: $limaneon;
+}
 
+.menuli a:hover {
+    border-radius: 20px;
+    background-color: $negropuro;
+    color: $blancohueso;
+}
  /*FIN MENU*/
