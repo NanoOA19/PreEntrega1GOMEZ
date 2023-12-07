@@ -6,18 +6,16 @@
   display: grid;
   grid-template-columns: 200px auto auto auto;
   grid-template-rows: auto auto auto;
-}
-body{
   font-family: $fontmontserrat;
 }
   /*TITULOS Y SUBTITULOS*/
-  .tituloinicio {
+  .titulo {
     font-size: $ttitulo;
     color: $limaneon;
     font-family: $tiysu;
   }
   
-  .subtinicio {
+  .subtitle {
     font-size: $tsubtitle;
     text-align: center;
     margin: 10px;

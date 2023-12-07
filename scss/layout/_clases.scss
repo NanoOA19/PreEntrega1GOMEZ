@@ -2,6 +2,10 @@
 .imgclass {
     width: 100%;
     height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
   }
   
   .opac {
@@ -13,8 +17,8 @@
   }
   
   .sanyo {
-    position: absolute;
-    width: 100%;
+    position: relative;
+    width: 111%;
     z-index: 0;
   }
   
