@@ -235,6 +235,12 @@ footer {
 }
 
 /*FIN FOOTER*/
+/*FOOTER CLASES*/
+.containersede {
+  display: grid;
+}
+
+/*FIN FOOTER CLASES*/
 /*MEDIA*/
 @media screen and (max-width: 425px) {
   .contnos {
