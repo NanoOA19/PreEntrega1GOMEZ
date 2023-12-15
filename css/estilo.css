@@ -227,7 +227,20 @@ footer {
   justify-content: center;
 }
 
-.marca {
+.normalfooter {
+  display: grid;
+  grid-template-rows: auto auto;
+  width: 100%;
+}
+.normalfooter .redes {
+  grid-row-start: 0;
+  grid-row-end: 1;
+}
+.normalfooter .sellos {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.normalfooter .sellos .marca {
   width: 200px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -236,10 +249,6 @@ footer {
 
 /*FIN FOOTER*/
 /*FOOTER CLASES*/
-.containersede {
-  display: grid;
-}
-
 /*FIN FOOTER CLASES*/
 /*MEDIA*/
 @media screen and (max-width: 425px) {
