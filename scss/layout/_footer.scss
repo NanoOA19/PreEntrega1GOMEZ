@@ -7,7 +7,7 @@ footer {
     background-color: $lilafuerte;
     text-align: center;
     justify-content: center;
-  }
+    }
   .normalfooter{
     display:grid;
     grid-template-rows: auto auto ;
@@ -26,12 +26,19 @@ footer {
         text-align: center;
       }
     }
-  }
-  
+ }
   /*FIN FOOTER*/
   /*FOOTER CLASES*/
   .containersede{
-    .sedetxt{}
-    .sedemps{}
+    display: grid;
+    grid-template-columns: auto auto;
+    .sedetxt{
+      grid-column-start: 0;
+      grid-column-end: 1;
+    }
+    .sedemps{
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
   }
-  /*FIN FOOTER CLASES*/
+/*FIN FOOTER CLASES*/
