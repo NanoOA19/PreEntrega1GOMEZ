@@ -33,10 +33,12 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     .sedetxt{
+      margin: 10px;
       grid-column-start: 0;
       grid-column-end: 1;
     }
     .sedemps{
+      margin: 10px;
       grid-column-start: 1;
       grid-column-end: 2;
     }

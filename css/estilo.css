@@ -202,16 +202,9 @@ header .containernav .menuli ul li {
   grid-column-end: 5;
 }
 
-.opac {
-  position: absolute;
-  width: 100%;
-  opacity: 0.7;
-  z-index: 1;
-}
-
 .sanyo {
   position: relative;
-  width: 111%;
+  width: 100%;
   z-index: 0;
 }
 
@@ -249,6 +242,21 @@ footer {
 
 /*FIN FOOTER*/
 /*FOOTER CLASES*/
+.containersede {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.containersede .sedetxt {
+  margin: 10px;
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+.containersede .sedemps {
+  margin: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
 /*FIN FOOTER CLASES*/
 /*MEDIA*/
 @media screen and (max-width: 425px) {
