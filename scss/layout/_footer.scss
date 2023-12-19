@@ -15,6 +15,10 @@ footer {
     .redes{
       grid-row-start: 0;
       grid-row-end: 1;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      display: flex;
+      width: 50px;
     }
     .sellos{
       grid-row-start: 1;
@@ -32,15 +36,36 @@ footer {
   .containersede{
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: 50px auto;
+    text-align: center;
+    .redesclases{
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: $lilapastel;
+      width: 1149px;
+      .logoredes{
+        max-width: 35px;
+        max-height: 35px;
+      }
+    }
     .sedetxt{
       margin: 10px;
-      grid-column-start: 0;
-      grid-column-end: 1;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
     }
     .sedemps{
       margin: 10px;
-      grid-column-start: 1;
-      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 3;
     }
   }
 /*FIN FOOTER CLASES*/
