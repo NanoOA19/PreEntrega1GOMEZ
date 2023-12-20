@@ -66,8 +66,9 @@
 }
 
 .card-img-top {
-  height: 442px;
+  height: 350px;
   width: 100%;
+  object-fit: contain;
 }
 
 /*FIN DE INICIO*/
@@ -193,21 +194,6 @@ header .containernav .menuli ul li {
 
 /*FIN DE NOSOTROS*/
 /*INICIO CLASES*/
-.imgclass {
-  width: 100%;
-  height: 100%;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 5;
-}
-
-.sanyo {
-  position: relative;
-  width: 100%;
-  z-index: 0;
-}
-
 /*FIN DE CLASES*/
 /*FOOTER*/
 footer {
@@ -248,7 +234,7 @@ footer {
 /*FOOTER CLASES*/
 .containersede {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 400px auto;
   grid-template-rows: 50px auto;
   text-align: center;
 }
@@ -283,6 +269,28 @@ footer {
 }
 
 /*FIN FOOTER CLASES*/
+/*INICIO PRODUCTOS*/
+.containerpaletas {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: -4;
+  grid-row-end: 1;
+  background-color: hsl(267, 99%, 48%);
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.containeradidas {
+  grid-row-start: -4;
+  grid-row-end: 1;
+  text-align: center;
+}
+
+.card-footer {
+  justify-items: center;
+}
+
+/*FIN PRODUCTOS*/
 /*MEDIA*/
 @media screen and (max-width: 425px) {
   .contnos {

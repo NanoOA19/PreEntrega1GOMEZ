@@ -1,0 +1,19 @@
+/*INICIO PRODUCTOS*/
+.containerpaletas {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: -4;
+    grid-row-end: 1;
+    background-color: $lilafuerte;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  .containeradidas {
+    grid-row-start: -4;
+    grid-row-end: 1;
+    text-align: center;
+  }
+  .card-footer{
+    justify-items: center;
+  }
+  /*FIN PRODUCTOS*/
