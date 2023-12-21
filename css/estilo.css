@@ -241,7 +241,6 @@ footer {
   grid-row-end: 4;
   background-color: hsl(267, 99%, 48%);
   text-align: center;
-  justify-content: center;
 }
 
 .normalfooter {
