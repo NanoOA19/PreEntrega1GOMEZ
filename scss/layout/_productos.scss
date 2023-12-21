@@ -7,13 +7,14 @@
     background-color: $lilafuerte;
     display: grid;
     grid-template-rows: auto auto;
+    .containeradidas {
+        grid-row-start: -4;
+        grid-row-end: 1;
+        text-align: center;
+        .card-footer{
+            justify-items: center;
+          }
+      }
   }
-  .containeradidas {
-    grid-row-start: -4;
-    grid-row-end: 1;
-    text-align: center;
-  }
-  .card-footer{
-    justify-items: center;
-  }
+  
   /*FIN PRODUCTOS*/

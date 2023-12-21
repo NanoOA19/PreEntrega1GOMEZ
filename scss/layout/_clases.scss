@@ -1,3 +1,40 @@
 /*INICIO CLASES*/
+.containerpacks {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: -4;
+  grid-row-end: 1;
+  width:100% ;
+  background-color: $lilafuerte;
+  display: grid;
+  grid-template-rows: auto 50px auto;
+  justify-items: center;
+  .redesclases{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $lilapastel;
+    width: 100%;
+    .logoredes{
+      max-width: 35px;
+      max-height: 35px;
+    }
+  }
+  .pack1 {
+    margin: 16px;
+    align-content: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+  }
+  .pack2 {
+    margin: 16px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+  }
+}
 
   /*FIN DE CLASES*/

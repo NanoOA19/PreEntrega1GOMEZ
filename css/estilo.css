@@ -35,7 +35,7 @@
   grid-column-end: 5;
   grid-row-start: -4;
   grid-row-end: 1;
-  background-color: hsl(267, 100%, 62%);
+  background-color: hsl(267, 99%, 48%);
   display: grid;
   grid-template-rows: auto auto;
 }
@@ -145,7 +145,7 @@ header .containernav .menuli ul li {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
-  background-color: hsl(267, 100%, 62%);
+  background-color: hsl(267, 99%, 48%);
 }
 
 .subtinos {
@@ -194,6 +194,44 @@ header .containernav .menuli ul li {
 
 /*FIN DE NOSOTROS*/
 /*INICIO CLASES*/
+.containerpacks {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: -4;
+  grid-row-end: 1;
+  width: 100%;
+  background-color: hsl(267, 99%, 48%);
+  display: grid;
+  grid-template-rows: auto 50px auto;
+  justify-items: center;
+}
+.containerpacks .redesclases {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(267, 100%, 62%);
+  width: 100%;
+}
+.containerpacks .redesclases .logoredes {
+  max-width: 35px;
+  max-height: 35px;
+}
+.containerpacks .pack1 {
+  margin: 16px;
+  align-content: center;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+.containerpacks .pack2 {
+  margin: 16px;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+}
+
 /*FIN DE CLASES*/
 /*FOOTER*/
 footer {
@@ -210,18 +248,26 @@ footer {
   display: grid;
   grid-template-rows: auto auto;
   width: 100%;
+  justify-items: center;
 }
 .normalfooter .redes {
-  grid-row-start: 0;
-  grid-row-end: 1;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  display: flex;
-  width: 50px;
-}
-.normalfooter .sellos {
   grid-row-start: 1;
   grid-row-end: 2;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(267, 100%, 62%);
+  width: 100%;
+}
+.normalfooter .redes .logoredes {
+  max-width: 35px;
+  max-height: 35px;
+}
+.normalfooter .sellos {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
 }
 .normalfooter .sellos .marca {
   width: 200px;
@@ -234,36 +280,19 @@ footer {
 /*FOOTER CLASES*/
 .containersede {
   display: grid;
-  grid-template-columns: 400px auto;
-  grid-template-rows: 50px auto;
+  grid-template-columns: auto auto;
   text-align: center;
-}
-.containersede .redesclases {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: hsl(267, 100%, 62%);
-  width: 1149px;
-}
-.containersede .redesclases .logoredes {
-  max-width: 35px;
-  max-height: 35px;
+  width: 100%;
 }
 .containersede .sedetxt {
   margin: 10px;
-  grid-row-start: 2;
-  grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 2;
+  width: 100%;
 }
 .containersede .sedemps {
+  width: 100%;
   margin: 10px;
-  grid-row-start: 2;
-  grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
 }
@@ -279,14 +308,12 @@ footer {
   display: grid;
   grid-template-rows: auto auto;
 }
-
-.containeradidas {
+.containerpaletas .containeradidas {
   grid-row-start: -4;
   grid-row-end: 1;
   text-align: center;
 }
-
-.card-footer {
+.containerpaletas .containeradidas .card-footer {
   justify-items: center;
 }
 
