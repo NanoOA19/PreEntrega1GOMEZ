@@ -43,14 +43,14 @@ footer {
   /*FOOTER CLASES*/
   .containersede{
     display: grid;
-    grid-template-columns: auto auto;
-    text-align: center;
+    grid-template-columns: 60% auto;
     width: 100%;
     .sedetxt{
       margin: 10px;
       grid-column-start: 1;
       grid-column-end: 2;
       width: 100%;
+      text-align: left;
     }
     .sedemps{
       width: 100%;

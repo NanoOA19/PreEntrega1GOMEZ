@@ -1,0 +1,44 @@
+// INICIO TORNEOS
+.cardstorneos {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: -4;
+    grid-row-end: 1;
+    background-color: $lilafuerte;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 33% 33% 33%;
+
+    .torneo1 {
+        display: flex;
+        margin: 20px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: center;
+        justify-content: center;
+    }
+    .torneo2 {
+        display: flex;
+        margin: 20px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        text-align: center;
+        justify-content: center;
+    }
+    .torneo3 {
+        display: flex;
+        margin: 20px;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+// FIN TORNEOS
