@@ -1,4 +1,4 @@
-alert("HOLA PADELISTA")
+/*alert("HOLA PADELISTA")
 let nombreUsuario = prompt("ingrese su nombre");
 let gustaUsuario = prompt("¿Te gusta el padel?");
 let totalRestpuestas = 0
@@ -146,4 +146,4 @@ let productosCarrito = "Detalle: \n\n" + carrito.listarCarrito();
 let salidaSubTotal = "Subtotal: $" + carrito.calculartotalpagar();
 let salidaDescuento = "Descuento: $" + carrito.aplicarDescuento();
 let montofinal = "Total: $" + Math.round(carrito.calculartotalpagar() - carrito.aplicarDescuento());
-alert(productosCarrito + "\n\n" + salidaSubTotal + "\n" + salidaDescuento + "\n" + montofinal);
+alert(productosCarrito + "\n\n" + salidaSubTotal + "\n" + salidaDescuento + "\n" + montofinal);*/
