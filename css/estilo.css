@@ -440,4 +440,20 @@ footer {
   }
 }
 
+.colorbtn{
+  color: #000000;
+  background-color: #d29ff5;
+}
+
+
+.backP{
+  background-color: #852ebe;
+}
+#carritoP {
+  color: #000000;
+}
+
+.paletasback{
+  background-color: #852ebe;
+}
 /*# sourceMappingURL=estilo.css.map */
