@@ -33,7 +33,7 @@ const obtenerPaletaLS = () => {
     localStorage.setItem("carrito", JSON.stringify(paleta));
   }
   const obtenerCarrito = () => {
-    return JSON.parse(localStorage.getItem("carrito")) ?? [];
+    return JSON.parse(localStorage.getItem("carrito")) || [];
   }
   //__________Interaccion con el carrito____________
   const agregarCarrito = () => {
@@ -44,6 +44,7 @@ const obtenerPaletaLS = () => {
     mostrarTotalBTNCarrito();
     notificacion("Paleta Elegida!"); 
   }
+  
   const eliminarPaletaCarrito = (id) => {
     const carrito = obtenerCarrito();
     const carritoActualizado = carrito.filter(item => item.id != id);
@@ -61,7 +62,8 @@ const obtenerPaletaLS = () => {
 //Suma de precios
 const sumaTotal = () => {
     const carrito =obtenerCarrito();
-    return carrito.reduce((acumulador, item) => acumulador += item.precio, 0);
+      return carrito.reduce((acumulador, item) => acumulador += item.precio, 0);
+    
 }
 
 //Eliminar carrito
@@ -74,7 +76,6 @@ const eliminarCarrito = () => {
 const mostrarTotalBTNCarrito = () => {
     document.getElementById("totalCarrito").innerHTML = cantTotalAgregados();
 }
-
 
 const notificacion = (texto) => {
     Toastify({
@@ -99,4 +100,3 @@ const finalizarCompra = () => {
 }
 
 
-console.log(obtenerCarrito());
