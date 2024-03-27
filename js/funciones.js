@@ -1,10 +1,10 @@
 const paletas =[
-    {id:1, nombre:"foam fire", precio: 10000, imagen:"/img/paleta2.jpg",descripcion: "La mas destacada del mercado, usada por el campeon Sanyo en la final del WPT.", imgcategoria: "/img/adidasbanner.jpeg", categoria:"ADIDAS"},
-    {id:2, nombre:"foam carbono", precio: 24000, imagen:"/img/paleta3.jpg",descripcion: "Con un diseño carbonizado y con detalles en amarrilo, esta pala se destaca tanto por su potencia como por su precisión content." , imgcategoria: "/img/adidasbanner.jpeg", categoria:"ADIDAS"},
-    {id:3, nombre:"foam neon", precio: 39999, imagen:"/img/paleta4.jpg",descripcion: "La favorita de la gente, destacada por ser la pala con mas campeonatos en la espalda, por su excelente desempeño y alto control de disparo" , imgcategoria: "/img/adidasbanner.jpeg", categoria:"ADIDAS"},
-    {id:4, nombre:"carbon solid", precio: 50000, imagen:"/img/bpaleta1.jpg",descripcion: "Con un golpeo unico se destaca entre las paletas mas solidas del mercado" , imgcategoria: "/img/bannerbabolat.jpg", categoria:"BABOLAT"},
-    {id:5, nombre:"carbon flex", precio: 76000, imagen:"/img/bpaleta2.jpg",descripcion: "Con una potencia increible, esta paleta ademas de ser potente es liviana, ideal para los mas agiles" , imgcategoria: "/img/bannerbabolat.jpg", categoria:"BABOLAT"},
-    {id:6, nombre:"carbon mixta", precio: 100000, imagen:"/img/bpaleta3.jpg",descripcion: "La paleta destacada por su excelente equilibrio entre potencia y control, es ideal para los que recien estan comenzando", imgcategoria: "/img/bannerbabolat.jpg", categoria:"BABOLAT"}
+    {id:1, nombre:"foam fire", precio: 10000, imagen:"../img/paleta2.jpg",descripcion: "La mas destacada del mercado, usada por el campeon Sanyo en la final del WPT.", imgcategoria: "../img/adidasbanner.jpeg", categoria:"ADIDAS"},
+    {id:2, nombre:"foam carbono", precio: 24000, imagen:"../img/paleta3.jpg",descripcion: "Con un diseño carbonizado y con detalles en amarrilo, esta pala se destaca tanto por su potencia como por su precisión content." , imgcategoria: "../img/adidasbanner.jpeg", categoria:"ADIDAS"},
+    {id:3, nombre:"foam neon", precio: 39999, imagen:"../img/paleta4.jpg",descripcion: "La favorita de la gente, destacada por ser la pala con mas campeonatos en la espalda, por su excelente desempeño y alto control de disparo" , imgcategoria: "../img/adidasbanner.jpeg", categoria:"ADIDAS"},
+    {id:4, nombre:"carbon solid", precio: 50000, imagen:"../img/bpaleta1.jpg",descripcion: "Con un golpeo unico se destaca entre las paletas mas solidas del mercado" , imgcategoria: "../img/bannerbabolat.jpg", categoria:"BABOLAT"},
+    {id:5, nombre:"carbon flex", precio: 76000, imagen:"../img/bpaleta2.jpg",descripcion: "Con una potencia increible, esta paleta ademas de ser potente es liviana, ideal para los mas agiles" , imgcategoria: "../img/bannerbabolat.jpg", categoria:"BABOLAT"},
+    {id:6, nombre:"carbon mixta", precio: 100000, imagen:"../img/bpaleta3.jpg",descripcion: "La paleta destacada por su excelente equilibrio entre potencia y control, es ideal para los que recien estan comenzando", imgcategoria: "../img/bannerbabolat.jpg", categoria:"BABOLAT"}
 ]
 
 const guardarPaletasLS = (paletas) => {
