@@ -33,7 +33,7 @@ const obtenerPaletaLS = () => {
     localStorage.setItem("carrito", JSON.stringify(paleta));
   }
   const obtenerCarrito = () => {
-    return JSON.parse(localStorage.getItem("carrito")) || [];
+    return JSON.parse(localStorage.getItem("carrito")) ?? [];
   }
   //__________Interaccion con el carrito____________
   const agregarCarrito = () => {
