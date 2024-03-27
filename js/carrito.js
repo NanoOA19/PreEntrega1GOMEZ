@@ -8,7 +8,7 @@ function renderCarrito() {
       contenido =  `<table class="tabla">
       <thead>
         <tr>
-          <td><button class="btn colorbtn btn-sm" onclick="eliminarCarrito()" title="Eliminar Carrito">Eliminar Carrito <img src="/img/trash-fill.svg" alt="Eliminar"></button></td>
+          <td><button class="btn colorbtn btn-sm" onclick="eliminarCarrito()" title="Eliminar Carrito">Eliminar Carrito <img src="../img/trash-fill.svg" alt="Eliminar"></button></td>
         </tr>
       </thead>
       <tbody>
@@ -19,7 +19,7 @@ function renderCarrito() {
           <td><img src="${paleta.imagen}" alt="${paleta.nombre}" width="64" /></td>
           <td><b>${paleta.nombre}</b></td>
           <td><b>$${paleta.precio}</b></td>
-          <td><button class="btn colorbtn btn-sm" onclick="eliminarPaletaCarrito(${paleta.id})"><img src="/img/trash-fill.svg" alt="Eliminar"></button></td>
+          <td><button class="btn colorbtn btn-sm" onclick="eliminarPaletaCarrito(${paleta.id})"><img src="../img/trash-fill.svg" alt="Eliminar"></button></td>
         </tr>`;
       }
       contenido +=`
